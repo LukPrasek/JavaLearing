@@ -25,10 +25,12 @@ public class BubbleSort {
                      table[i] = cur;
                             printing();
                     System.out.println("Pierwsze wejscie");
-                                }
+                }
             }
         }
     }
+
+
     public static void printing() {
         for (int x: table) {
             System.out.print(x);
